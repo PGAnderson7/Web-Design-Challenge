@@ -81,3 +81,16 @@
       height: 90%;
   }
 
+  #other-image {
+      width: 100%;
+      height: 100%;
+  }
+
+  @media screen and (max-width: 600px) {
+	.topnav.responsive {position: relative;}
+	.topnav.responsive a.icon {
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+    
